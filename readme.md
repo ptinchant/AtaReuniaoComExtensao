@@ -1,4 +1,3 @@
-```markdown
 # Meeting Transcriber
 
 Um aplicativo para transcrever reuniões e gerar resumos automaticamente.
