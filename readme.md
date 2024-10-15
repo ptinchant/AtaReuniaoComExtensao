@@ -1,5 +1,3 @@
-Peço desculpas pela confusão anterior. Aqui está o `README.md` completo, formatado corretamente em Markdown e com a seção de instalação apresentada de forma clara:
-
 ```markdown
 # Meeting Transcriber
 
