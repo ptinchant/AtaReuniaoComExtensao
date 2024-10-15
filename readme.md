@@ -26,13 +26,13 @@ O FLOW! Meeting Transcriber é uma extensão para o Chrome que permite gravar á
 ### 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/ptinchant/flow-meeting-transcriber.git
+git clone https://github.com/ptinchant/AtaReuniaoComExtensao.git
 ```
 
 ### 2. Acesse a pasta do projeto:
 
 ```bash
-cd flow-meeting-transcriber
+cd AtaReuniaoComExtensao
 ```
 
 ### 3. Instale as dependências do Python:
@@ -54,7 +54,7 @@ python python-app/app/main.py
 ### 5. Abra o Chrome e acesse `chrome://extensions/`.
 
 - Ative o "Modo do desenvolvedor" no canto superior direito.
-- Clique em "Carregar sem compactação" e selecione a pasta do projeto.
+- Clique em "Carregar sem compactação" e selecione a pasta do projeto (chrome-extension).
 
 ## Uso
 
