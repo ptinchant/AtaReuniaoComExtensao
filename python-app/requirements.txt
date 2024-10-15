@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydub
+speechrecognition
+langchain-openai
+langchain-core
+python-dotenv
+python-magic
+noisereduce
+numpy
+tiktoken

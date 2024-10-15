@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "FLOW! Meeting Transcriber",
+    "version": "1.0",
+    "description": "Transcribe and generate meeting summaries",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "contextMenus",
+      "storage",
+      "scripting",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["contentScript.js"],
+        "run_at": "document_end" 
+      }
+    ],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
