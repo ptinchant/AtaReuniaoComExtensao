@@ -1,10 +1,10 @@
-# FLOW! Meeting Transcriber
+# Meeting Transcriber
 
 Um aplicativo para transcrever reuniões e gerar resumos automaticamente.
 
 ## Descrição
 
-O FLOW! Meeting Transcriber é uma extensão para o Chrome que permite gravar áudio de reuniões, transcrever o conteúdo e gerar um resumo da reunião. A extensão suporta múltiplos idiomas e é fácil de usar.
+O Meeting Transcriber é uma extensão para o Chrome que permite gravar áudio de reuniões, transcrever o conteúdo e gerar um resumo da reunião. A extensão suporta múltiplos idiomas e é fácil de usar.
 
 ## Funcionalidades
 
@@ -18,7 +18,7 @@ O FLOW! Meeting Transcriber é uma extensão para o Chrome que permite gravar á
 
 - **JavaScript**: Para a lógica da extensão.
 - **HTML/CSS**: Para a interface do usuário.
-- **Whisper API**: Para transcrição de áudio.
+- **Google Recognizer**: Para transcrição de áudio.
 - **Python**: Para o backend e manipulação de transcrição.
 
 ## Instalação
