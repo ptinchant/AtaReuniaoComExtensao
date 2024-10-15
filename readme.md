@@ -40,7 +40,7 @@ cd flow-meeting-transcriber
 Certifique-se de ter o Python instalado. Depois, instale as dependências necessárias:
 
 ```bash
-pip install -r requirements.txt
+pip install -r python-app/requirements.txt
 ```
 
 ### 4. Execute o aplicativo Python:
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 Inicie o servidor Flask (ou qualquer outro backend que você esteja usando):
 
 ```bash
-python app.py
+python python-app/app/main.py
 ```
 
 ### 5. Abra o Chrome e acesse `chrome://extensions/`.
