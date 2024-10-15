@@ -1,10 +1,10 @@
-# Meeting Transcriber
+# FLOW! Meeting Transcriber
 
 Um aplicativo para transcrever reuniões e gerar resumos automaticamente.
 
 ## Descrição
 
-O Meeting Transcriber é uma extensão para o Chrome que permite gravar áudio de reuniões, transcrever o conteúdo e gerar um resumo da reunião. A extensão suporta múltiplos idiomas e é fácil de usar.
+O FLOW! Meeting Transcriber é uma extensão para o Chrome que permite gravar áudio de reuniões, transcrever o conteúdo e gerar um resumo da reunião. A extensão suporta múltiplos idiomas e é fácil de usar.
 
 ## Funcionalidades
 
@@ -18,33 +18,50 @@ O Meeting Transcriber é uma extensão para o Chrome que permite gravar áudio d
 
 - **JavaScript**: Para a lógica da extensão.
 - **HTML/CSS**: Para a interface do usuário.
-- **Google Transcriber**: Para transcrição de áudio.
+- **Whisper API**: Para transcrição de áudio.
+- **Python**: Para o backend e manipulação de transcrição.
 
 ## Instalação
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/flow-meeting-transcriber.git
-   ```
+### 1. Clone este repositório:
 
-2. Acesse a pasta do projeto:
-   ```bash
-   cd flow-meeting-transcriber
-   ```
+```bash
+git clone https://github.com/seu-usuario/flow-meeting-transcriber.git
+```
 
-3. Abra o Chrome e acesse `chrome://extensions/`.
+### 2. Acesse a pasta do projeto:
 
-4. Ative o "Modo do desenvolvedor" no canto superior direito.
+```bash
+cd flow-meeting-transcriber
+```
 
-5. Clique em "Carregar sem compactação" e selecione a pasta do projeto (chrome-extension).
+### 3. Instale as dependências do Python:
+
+Certifique-se de ter o Python instalado. Depois, instale as dependências necessárias:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Execute o aplicativo Python:
+
+Inicie o servidor Flask (ou qualquer outro backend que você esteja usando):
+
+```bash
+python app.py
+```
+
+### 5. Abra o Chrome e acesse `chrome://extensions/`.
+
+- Ative o "Modo do desenvolvedor" no canto superior direito.
+- Clique em "Carregar sem compactação" e selecione a pasta do projeto.
 
 ## Uso
 
 1. Clique com o botão direito do mouse na página e selecione "Meeting Transcriber".
 2. Escolha a opção "Start Recording" para iniciar a gravação.
-3. Compartilhe sua tela e audio do sistema (você poderá compartilhar novamente caso precise na reunião)
-4. Após a reunião, selecione "Stop Recording" e escolha o idioma.
-5. A ata da reunião será gerada e exibida em uma nova janela.
+3. Após a reunião, selecione "Stop Recording" e escolha o idioma.
+4. A ata da reunião será gerada e exibida em uma nova janela.
 
 ## Contribuição
 
