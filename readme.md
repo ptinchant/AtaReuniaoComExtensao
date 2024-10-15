@@ -56,6 +56,6 @@ Este projeto é licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-- **Seu Nome**: [seu-email@example.com](mailto:pierre.pinto@ciandt.com)
-- **GitHub**: [seu-usuario](https://github.com/ptinchant)
+- **Seu Nome**: [Pierre Tinchant Pinto](mailto:pierre.pinto@ciandt.com)
+- **GitHub**: [ptinchant](https://github.com/ptinchant)
 
