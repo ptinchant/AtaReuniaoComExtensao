@@ -26,7 +26,7 @@ O FLOW! Meeting Transcriber é uma extensão para o Chrome que permite gravar á
 ### 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/flow-meeting-transcriber.git
+git clone https://github.com/ptinchant/flow-meeting-transcriber.git
 ```
 
 ### 2. Acesse a pasta do projeto:
